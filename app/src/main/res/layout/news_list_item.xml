@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/small_margin">
+
+    <TextView
+        android:id="@+id/section"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="@dimen/section"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        tools:text="section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/title"
+        tools:text="title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/very_small_margin"/>
+
+    <TextView
+        android:id="@+id/webPublicationDate"
+        tools:text="date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/date"
+        android:textColor="@color/textColorBookDate"/>
+
+</LinearLayout>
