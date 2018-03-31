@@ -11,7 +11,6 @@ Here is an application for the Udacity Android News project. This application sh
 
 ### User Interface - Functionality
 - Stories shown on the main screen update properly whenever new news data is fetched from the API.
-- The code runs without errors.
 - Clicking on a story opens the story in the user’s browser.
 - App queries the content.guardianapis.com api to fetch news stories related to the topic chosen by the student, using either the ‘test’ api key or the student’s key.
 - Networking operations are done using a Loader rather than an AsyncTask.
